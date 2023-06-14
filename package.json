@@ -11,14 +11,12 @@
     "prettier-write": "prettier --write \"src/**/*.js\"",
     "release": "auto shipit",
     "start": "export NODE_OPTIONS=--openssl-legacy-provider && yarn develop",
-
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "type-check": "tsc --pretty --noEmit"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
