@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts --ext tsx",
     "prettier-write": "prettier --write \"src/**/*.js\"",
     "release": "auto shipit",
-    "start": "yarn develop",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && yarn develop",
+
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "type-check": "tsc --pretty --noEmit"
   },
