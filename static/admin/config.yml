@@ -1,14 +1,14 @@
 # Netlify "kitchen sink" example: https://github.com/netlify/netlify-cms/blob/master/dev-test/config.yml
 
-localhost_development:
-  backend:
-    name: file-system
-    api_root: /api
+# localhost_development:
+#   backend:
+#     name: file-system
+#     api_root: /api
 
 backend:
   name: github
-  repo: 
-  branch: 
+  repo: rahuldesar/decap-mdx-gatsby
+  branch: main
 
 display_url: http://localhost:8000
 media_folder: static/assets
